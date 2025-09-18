@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP2 - Mercedes Rauque</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+
+    <header>
+        <h1>REGISTRO AL EVENTO</h1>
+    </header>
+
+
+    <main>
+        <div id="intro">
+            <p>Completá con tus datos personales,</p> 
+            <p> <span>¡registrate y accedé a descuentos especiales!</span></p>
+            
+        </div>
+
+        <div>
+            <form action="./js/script.js" method="post">
+
+                <div>
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+
+                <br>
+                <div>
+                    <label for="edad">Edad: </label>
+                    <input type="number" id="edad" name="edad" min="0" required>
+                </div>
+                <br>
+
+                <div>
+                    <button type="button" value="verificar" id="btnRegistro"> Registrarme </button>
+
+                </div>
+
+                <div id="mensaje">
+
+                </div>
+
+            </form>
+        </div>
+        
+    </main>
+
+
+    <footer>
+        <p>Mercedes Rauque - 2025</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Trocchi&display=swap');
+
+
+*{margin:0;padding:0; scroll-behavior:smooth; box-sizing:border-box;min-height: 100%;}
+
+body{ display: flex;flex-direction: column;min-height: 100vh;background-color: black; font-family: "Trocchi", serif;
+  font-weight: 400; font-style: normal; color: #ffffff; font-optical-sizing: auto;font-size: 30 px; text-align: center;background-image: url(../IMAGENES/chimufest.png);background-repeat: no-repeat; background-position:bottom right ;}
+img{width: 100%;}
+
+header{padding: 10%;}
+H1{color: #dd417f; font-family: "Trocchi", serif;
+  font-weight: 400;
+  font-style: normal ;font-size:80pt;text-align: center;line-height: 100%;}
+
+
+main{flex: 1;}
+
+#intro {color: #ffffff; font-family: "Trocchi", serif; font-weight: 400;
+  font-style: normal;font-size: 20pt; text-align: center; line-height: 120%;}
+
+form{padding: 5% 30%;}
+
+button{background-color: #dd417f;padding: 15px;color: #ffffff;}
+
+.confirmado {background-color: rgb(211, 247, 79);color:black;}
+.no_confirmado {background-color: rgb(200, 33, 33);color:rgb(255, 255, 255); }
+#mensaje{ padding: 3% ;font-family: "Trocchi", serif; font-weight: 400;font-style: normal;font-size: 20pt; text-align: center; line-height: 120%;justify-content: center;margin-top: 5%;}
+
+footer{background-color:#373335; text-align: center; color: black;margin-top:auto;}
